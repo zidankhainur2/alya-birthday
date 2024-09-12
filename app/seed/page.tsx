@@ -22,9 +22,8 @@ export default function SeedDatabase() {
           youtubeString: "https://www.youtube.com/embed/GVPzGBvPrzw",
         },
         {
-          imageString:
-            "https://image.tmdb.org/t/p/original/kHlX3oqdD4VGaLpB8O78M25KfdS.jpg",
-          title: "A Haunting in Venice",
+          imageString: "../../public/alya1.jpg",
+          title: "Alya Kawaii",
           age: 12,
           duration: 1.44,
           id: 1,
