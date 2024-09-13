@@ -81,7 +81,7 @@ export default function Navbar() {
 
       {/* Dropdown menu for small screens */}
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-black lg:hidden z-10">
+        <div className="absolute top-16 left-0 w-full bg-black lg:hidden z-20">
           <ul className="flex flex-col items-start px-5 py-3">
             {links.map((link, idx) => (
               <li key={idx} className="py-2">
